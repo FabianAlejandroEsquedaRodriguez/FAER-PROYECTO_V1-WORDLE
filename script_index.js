@@ -62,7 +62,8 @@ function to_versus(){
     to_enter();
     deact_classic();
     deact_coop();
-    document.getElementById("enterClick").href="/";
+    //IT DOESN'T WORK YET
+    // document.getElementById("enterClick").href="/g_versus_lobby.html";
     console.log('versus');
 };
 function to_coop(){
@@ -70,7 +71,8 @@ function to_coop(){
     to_enter();
     deact_classic();
     deact_versus();
-    document.getElementById("enterClick").href="/";
+    //IT DOESN'T WORK YET
+    // document.getElementById("enterClick").href="/";
     console.log('cooperative');
 };
 
