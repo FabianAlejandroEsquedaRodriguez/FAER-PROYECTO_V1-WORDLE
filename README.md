@@ -25,6 +25,7 @@ Desde el logo del sitio, al presionarlo, puedes regresarte a la pantalla princip
 ![image](https://user-images.githubusercontent.com/70966003/168873207-5aa1c022-18f5-4c68-87c9-05b602893786.png)
 
 De igual forma, hay un botón para recargar la página en caso de que te enfades de no adivinar, o bien, por si ganaste y quieres jugar otra partida.
+
 ![image](https://user-images.githubusercontent.com/70966003/168873256-787067cf-ff6b-4f85-9c76-de5d1172ba00.png)
 
 Ya sea si ganas o pierdes, al final tendrás la posibilidad de ver que significó la palabra que estabas tratando de adivinar; se te redirigira a ver el significado.
@@ -34,6 +35,7 @@ Ya sea si ganas o pierdes, al final tendrás la posibilidad de ver que signific�
 
 # Responsividad
 En dispositivos moviles que van desde los 0 a los 500px de ancho, los elementos se reacomodan; cada pantalla que se abra, tiene un nuevo layout.
+
 ![image](https://user-images.githubusercontent.com/70966003/168874405-6b07b03a-c0a4-442d-931a-be60b0078e81.png)
 
 ![image](https://user-images.githubusercontent.com/70966003/168874354-4cbffd8f-e0b6-40d2-aae9-8f3b7cd3acc3.png)
