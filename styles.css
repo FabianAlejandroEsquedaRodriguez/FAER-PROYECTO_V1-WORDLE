@@ -158,7 +158,7 @@ button {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 380px){
     #results{
         font-size: 12px;
     }
