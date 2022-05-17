@@ -1,4 +1,4 @@
-# The-Wordle
+# WORDELTA
 
 Como objetivo se tiene hacer un Wordle con distintos modos de juego y algunos modificadores.
 Esta es una aplicación creada como proyecto final de la clase de Programación para internet, sin fines de lucro.
