@@ -146,13 +146,13 @@ button {
         font-size: 2px;
     }
     #teclado .tecla {
-        width: 33px;
-        height: 42px;
+        width: 34px;
+        height: 50px;
         border: 2px solid #1F1F1F;
         padding-left: 5px;
     }
     #teclado #tecla-2 {
-        width: 70px;
+        width: 63px;
         border-radius: 0px;
         border: 2px solid #3E265F;
     }
