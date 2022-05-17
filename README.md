@@ -15,6 +15,7 @@ De igual forma, tienes la posibilidad de modificar el idioma con el que quieres 
 
 ![image](https://user-images.githubusercontent.com/70966003/168871990-3d32cac5-5cc4-4e64-bfb2-cfd06b7d85dc.png)
 ![image](https://user-images.githubusercontent.com/70966003/168872471-68f91e8a-4576-4e3b-9253-fe32c3e97795.png)
+![image](https://user-images.githubusercontent.com/70966003/168875682-dcc4b68b-2f1d-4099-825f-8f1836923df2.png)
 
 # El modo clásico
 Partidas clásicas de Wordle donde se tiene que encontrar la palabra oculta, ya sea en español o inglés, según lo que hayas elegido en la pantalla principal.
