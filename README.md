@@ -39,3 +39,8 @@ En dispositivos moviles que van desde los 0 a los 500px de ancho, los elementos 
 ![image](https://user-images.githubusercontent.com/70966003/168874405-6b07b03a-c0a4-442d-931a-be60b0078e81.png)
 
 ![image](https://user-images.githubusercontent.com/70966003/168874354-4cbffd8f-e0b6-40d2-aae9-8f3b7cd3acc3.png)
+
+# ¿Te gustaría jugarlo?
+Puedes hacerlo, solo sigue el siguiente link:
+
+https://wordeltav1.herokuapp.com/
