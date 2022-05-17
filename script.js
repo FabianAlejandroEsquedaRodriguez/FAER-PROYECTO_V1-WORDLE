@@ -30,7 +30,7 @@ if(lenguaje == 'espV'){
     WIN45 = ESP_win_4_5
     WIN23 = ESP_win_2_3
     WIN1 = ESP_win_1
-    langref = "https://dle.rae.es/"
+    langref = "https://www.wordreference.com/definicion/"
 }
 
 const intentos = 6;
@@ -40,7 +40,7 @@ let letraSig = 0;
 let longPalabra = 5;
 let palabraCorrecta = LANG[Math.floor(Math.random() * LANG.length)]
 
-// console.log(palabraCorrecta)
+console.log(palabraCorrecta)
 
 //Recuperación de monedas
 let coins = localStorage.getItem('coins');
@@ -75,7 +75,7 @@ function initTabla() {
 }
 
 //Se ejecuta la inicializacion de la tabla
-initTabla();
+initTabla()
 
 document.addEventListener("keyup", (e) => {
     if (int_restantes === 0) {
@@ -88,7 +88,7 @@ document.addEventListener("keyup", (e) => {
         return
     }
 
-    if (pressedKey === "+>") {
+    if (pressedKey === "Enter") {
         verificar()
         return
     }
@@ -135,12 +135,12 @@ function verificar () {
     }
 
     if (int_palabra.length != 5) {
-        toastr.error("Not enough letters!")
+        toastr.error("No hay suficientes letras!")
         return
     }
 
     if (!LANG.includes(int_palabra)) {
-        toastr.error("Not listed word!")
+        toastr.error("La palabra no esta en la lista!")
         return
     }
     
@@ -191,14 +191,12 @@ function verificar () {
             document.getElementById("winlose").textContent=WIN6[Math.floor(Math.random() * WIN6.length)];
         }
         crearLink();
-        document.getElementById("winlose").style.color = 'aqua'
+        toastr.success("Felicitaciones!")
 
         //Partidas (3x7-N)
         let newcoins = parseInt(coins) + 3 * int_restantes
         localStorage.setItem('coins', newcoins)
         console.log(newcoins)
-        let woncoins = 3 * int_restantes
-        toastr.success("+" + woncoins + " coins!")
 
         int_restantes = 0
         return
@@ -213,7 +211,6 @@ function verificar () {
             document.getElementById("winlose").textContent=LOSE[Math.floor(Math.random() * LOSE.length)];
             crearLink();
             toastr.info(`La palabra correcta era: "${palabraCorrecta}"`)
-            document.getElementById("winlose").style.color = 'lightsalmon'
         }
     }
 }
@@ -256,7 +253,10 @@ document.getElementById("teclado").addEventListener("click", (e) => {
 
     if (key === "<-") {
         key = "Backspace"
-    } 
+    }
+    if (key === "+>") {
+        key = "Enter"
+    }
 
     document.dispatchEvent(new KeyboardEvent("keyup", {'key': key}))
 })
