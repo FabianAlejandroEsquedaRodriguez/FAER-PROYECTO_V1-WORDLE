@@ -41,6 +41,12 @@ En dispositivos moviles que van desde los 0 a los 500px de ancho, los elementos 
 
 ![image](https://user-images.githubusercontent.com/70966003/168874354-4cbffd8f-e0b6-40d2-aae9-8f3b7cd3acc3.png)
 
+# Version de escritorio
+Para jugarlo desde el escritorio, lo único que debes hacer es descargar el archivo .zip y descomprimirlo.
+Dentro habrá un archivo wordelta.exe que podras ejecutar para poder jugarlo desde tu escritorio.
+
+![image](https://user-images.githubusercontent.com/70966003/168946696-0e56c055-404c-4d6c-92b7-c2be7e3219f7.png)
+
 # ¿Te gustaría jugarlo?
 Puedes hacerlo, solo sigue el siguiente link:
 
